@@ -1,0 +1,278 @@
+ <!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hind Ezahraoui - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <div class="logo-container">
+          <i class="fas fa-code"></i>
+        </div>
+        <span class="brand-text">Hind E.</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">
+              <i class="fas fa-user"></i>À propos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">
+              <i class="fas fa-cogs"></i>Compétences
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">
+              <i class="fas fa-graduation-cap"></i>Éducation
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">
+              <i class="fas fa-envelope"></i>Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <button class="theme-toggle" id="themeToggle">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero-->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hind Ezahraoui</h1>
+      <h2 id="typing"></h2>
+      
+      <p class="hero-description">
+        Étudiante à la Faculté des sciences Semlalia - Marrakech, spécialisée en informatique Appliquée, passionnée par le développement et l'innovation numérique.
+      </p>
+      
+      <div class="hero-buttons">
+        <a href="#contact" class="btn-primary">
+          <i class="fas fa-paper-plane"></i>
+          Me Contacter
+        </a>
+        <a href="#skills" class="btn-secondary">
+          <i class="fas fa-eye"></i>
+          Voir mes compétences
+        </a>
+      </div>
+
+      <!-- RÉSEAUX SOCIAUX -->
+      <div class="hero-social">
+        <a href="https://github.com/h-ezahraoui8901" class="social-circle" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/votre-profile" class="social-circle" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:hindezahraoui37@gmail.com" class="social-circle" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://wa.me/212602964872" class="social-circle" target="_blank" title="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--a propos de moi--> 
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">À propos de moi</h2>
+      <div class="about-content">
+        <p>
+          Actuellement étudiante en informatique, je suis passionnée par tout ce qui touche à la programmation web et au développement logiciel. Ma formation académique m'a permis d'acquérir de solides compétences en programmation C, structures de données, algorithmes, recherche opérationnelle et modélisation UML. Curieuse et rigoureuse, je m'investis pleinement dans chaque projet afin de concevoir des solutions efficaces et bien structurées, adaptées aux besoins réels. Mon objectif est de continuer à apprendre et à évoluer dans le domaine du développement, en alliant performance technique et clarté fonctionnelle.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Mes Compétences Techniques</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="skill-card">
+            <div class="skill-icon-img">
+              <img src="assets/logos/html5.png" alt="HTML5 Logo">
+            </div>
+            <div class="skill-name">HTML5</div>
+            <div class="skill-level">Avancé</div>
+            <div class="progress-bar-custom">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="skill-card">
+            <div class="skill-icon-img">
+              <img src="assets/logos/css3.png" alt="CSS3 Logo">
+            </div>
+            <div class="skill-name">CSS3 / Bootstrap</div>
+            <div class="skill-level">Intermédiaire</div>
+            <div class="progress-bar-custom">
+              <div class="progress-fill" style="width: 60%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="skill-card">
+            <div class="skill-icon-img">
+              <img src="assets/logos/javascript.png" alt="JavaScript Logo">
+            </div>
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-level">Débutant</div>
+            <div class="progress-bar-custom">
+              <div class="progress-fill" style="width: 20%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="skill-card">
+            <div class="skill-icon-img">
+              <img src="assets/logos/c.png" alt="Programmation C Logo">
+            </div>
+            <div class="skill-name">Programmation C</div>
+            <div class="skill-level">Avancé</div>
+            <div class="progress-bar-custom">
+              <div class="progress-fill" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="skill-card">
+            <div class="skill-icon-img">
+              <img src="assets/logos/uml.png" alt="UML Logo">
+            </div>
+            <div class="skill-name">Modélisation UML</div>
+            <div class="skill-level">Intermédiaire</div>
+            <div class="progress-bar-custom">
+              <div class="progress-fill" style="width: 65%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="skill-card">
+            <div class="skill-icon-img">
+              <img src="assets/logos/linux.png" alt="Linux Logo">
+            </div>
+            <div class="skill-name">UNIX / Linux</div>
+            <div class="skill-level">Bases solides</div>
+            <div class="progress-bar-custom">
+              <div class="progress-fill" style="width: 55%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Éducation -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title">Mon Parcours Académique</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">2024</div>
+            <div class="timeline-title">Baccalauréat Sciences Mathématiques</div>
+            <div class="timeline-desc">
+              Lycée Abi Al-Abbas Essabti, Marrakech<br>
+              Formation solide en mathématiques et sciences fondamentales
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">2025</div>
+            <div class="timeline-title">Bac+1 Informatique Appliquée</div>
+            <div class="timeline-desc">
+              Faculté des Sciences Semlalia (FSSM), Marrakech<br>
+              Programmation C, Structures de données, Mathématiques appliquées, 
+              Modélisation UML, Recherche opérationnelle, Systèmes d'exploitation UNIX
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-year">2026</div>
+            <div class="timeline-title">Bac+2 Informatique Appliquée (En cours)</div>
+            <div class="timeline-desc">
+              Faculté des Sciences Semlalia (FSSM), Marrakech<br>
+              Approfondissement des compétences en développement web et applications,
+              nouvelles technologies et méthodologies de développement
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-section">
+        <h2 class="section-title">Me Contacter</h2>
+        
+        <form class="contact-form" action="https://formspree.io/f/ton_code" method="POST">
+          <div class="form-group">
+            <label class="form-label" for="email">Votre email :</label>
+            <input 
+              type="email" 
+              name="email"
+              id="email"
+              class="form-input" 
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Votre message :</label>
+            <textarea 
+              name="message"
+              id="message"
+              class="form-textarea" 
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            Envoyer
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Hind Ezahraoui. Tous droits réservés. Développé avec passion 💙</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
