@@ -1,6 +1,6 @@
 
 const typing = document.getElementById("typing");
-const text = "Développeuse Web & Logiciel 💻";
+const text = "Bienvenue dans mon portfolio 💻";
 let i = 0;
 
 function typeEffect() {
@@ -131,4 +131,5 @@ const progressObserver = new IntersectionObserver((entries) => {
 
 progressBars.forEach(bar => {
   progressObserver.observe(bar);
+
 });
